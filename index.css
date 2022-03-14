@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-item-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 375px) {
+  .navbar-brand span {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand span {
+    display: block;
+  }
+}
