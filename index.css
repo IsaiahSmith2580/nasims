@@ -159,6 +159,18 @@
     margin-bottom: 0%;
   }
 
+  .about-image {
+    position: relative;
+    width: 450px;
+    min-height: 500px;
+    max-width: 100%;
+    background-image: url(/Photos/about.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto !important;
+    margin-top: 2rem;
+  }
+
   .about-nasims div {
     padding-top: 6rem;
   }
