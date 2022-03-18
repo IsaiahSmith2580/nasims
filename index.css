@@ -243,9 +243,6 @@
     padding: 0 3rem;
   }
 
-  .news-section {
-  }
-
   .news-body .card {
     width: 100%;
     box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.1);
@@ -279,5 +276,85 @@
 
   .footer {
     background: #07321b;
+  }
+
+  /* About Page */
+  .about-nasims {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(/Photos/about1ed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 8rem;
+  }
+
+  .about-nasims div {
+    padding: 2rem 0;
+  }
+
+  .about-nasims p {
+    font-weight: 600;
+  }
+
+  .section-two {
+    padding: 4.5rem 2rem;
+  }
+
+  .section-three {
+    background: #fffbf6;
+    padding: 3rem 2rem;
+  }
+  .section-three-cover {
+    width: 80%;
+    padding: 3rem 2rem;
+  }
+
+  .section-three-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .section-three .row {
+    padding: 3rem 1rem 4rem 4rem;
+  }
+
+  /* contact us page */
+
+  .contact-section {
+    background: #f9ecdc;
+    padding: 8rem;
+  }
+
+  .contact-section h5 {
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .contact-section p {
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .contact-us {
+    padding: 7rem 2rem;
+  }
+
+  .contact-us p {
+    padding: 0 28rem;
+  }
+
+  .contact-us h6 {
+    padding-bottom: 2rem;
+  }
+
+  /* News page */
+  .news-section {
+    padding: 3rem 0;
+  }
+
+  .news-section1 {
+    background: #fdfdfd;
   }
 }
