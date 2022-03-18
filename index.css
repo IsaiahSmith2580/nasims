@@ -58,10 +58,6 @@
     height: 80vh;
   }
 
-  .readmore {
-    margin-left: 13rem;
-  }
-
   /* president section */
   .font-weight-bold {
     font-size: 1rem;
@@ -75,9 +71,29 @@
     text-align: start;
     width: 70%;
   }
+
+  .questions .container h3 {
+    text-align: center;
+  }
+
+  .questions-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    background: #07321b;
+  }
 }
 
 @media (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .navbar-brand span {
     display: block;
   }
@@ -120,8 +136,7 @@
 
   .carousel-text h1,
   h5,
-  p,
-  a {
+  p {
     text-align: left;
   }
 
@@ -156,10 +171,10 @@
     color: #f9ae00;
   }
 
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  .about-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .logo-text {
