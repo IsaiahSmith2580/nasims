@@ -14,7 +14,7 @@
   margin-top: 2.4rem;
 } */
 
-@media (min-width: 375px) {
+@media (min-width: 200px) {
   .navbar-brand span {
     display: none;
   }
